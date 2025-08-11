@@ -8,7 +8,7 @@ pipeline {
         }
         stage('hello') {
             steps {
-                bat '"C:\\Users\\RELIANCE\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" demo.py'
+                bat '"C:\\Users\\RELIANCE\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" manage.py'
             }
         }
     }
